@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: Montserrat;
+}
+
+.logo {
+  height: 60px;
+  width: 150px;
+  padding: 0px;
+}
+
+.header__section {
+  height: 100vh;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images5/Aesthetic-Cloud-Wallpaper-for-PC.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__container {
+  height: 75px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__title {
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+}
+
+.header__subtitle {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav__container {
+  height: 96px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.nav__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  margin: 20px 20px 0px 0px;
+}
+
+.logo__link {
+  padding-left: 10px;
+  margin: 0px;
+}
+.nav__links {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #5b3765;
+  padding-top: 150px;
+}
+
+.nav__links-texts {
+  display: flex;
+  justify-content: center;
+  font-size: 52px;
+  font-family: Montserrat;
+  color: white;
+  text-decoration: none;
+  margin-top: 70px;
+}
+
+.nav__button-close {
+  display: none;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px 20px 0px 0px;
+}

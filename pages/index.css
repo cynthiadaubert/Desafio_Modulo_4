@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: Poppins;
+}
+
+.about-me {
+  height: 538px;
+  background-color: #9e6999;
+  color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 55px 30px 0px 30px;
+}
+
+.about-me__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .about-me__texts {
+    display: flex;
+    justify-content: left;
+  }
+}
+
+@media (min-width: 769px) {
+  .about-me {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 769px) {
+  .about-me__container {
+    width: 610px;
+    display: flex;
+    text-align: left;
+  }
+}
+
+.about-me__title {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 39px;
+  margin-bottom: 40px;
+}
+
+.about-me__text {
+  font-family: "Poppins";
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}

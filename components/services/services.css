@@ -1,0 +1,101 @@
+.services {
+  height: 1375px;
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .services {
+    height: 604px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.services__title {
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 700px;
+  text-align: center;
+}
+
+.container__services {
+  height: 1233px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 66px;
+}
+
+@media (min-width: 769px) {
+  .container__services {
+    height: 604px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subcontainer-subtitle {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-weight: 24px;
+  margin: 18px 52px 15px 52px;
+}
+
+@media (min-width: 769px) {
+  .subcontainer-subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.caption__text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-weight: 16px;
+  height: 117px;
+  width: 262px;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .caption {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+.caption-extra {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-weight: 16px;
+  height: 117px;
+  width: 262px;
+  margin: 0px 57px 66px 57px;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .caption-extra {
+    margin-bottom: 0px;
+  }
+}

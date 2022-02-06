@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #5b3765;
+  height: 100vh;
+  width: auto;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 90vw;
+}
+
+.contact__title {
+  color: #f8e2ec;
+  font-family: "Montserrat";
+  font-size: 32px;
+  padding: 0 auto;
+  margin: 0px 0px 40px;
+  text-align: center;
+}
+
+.label__text {
+  color: #f8e2ec;
+  font-family: "Poppins";
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.textarea {
+  margin-bottom: 60px;
+  height: 113px;
+  width: 408px;
+  border: none;
+}
+
+.input-text {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.button {
+  height: 45px;
+  width: 400px;
+  background-color: #9e6999;
+  color: #f8e2ec;
+  font-size: 16px;
+  border: none;
+}
