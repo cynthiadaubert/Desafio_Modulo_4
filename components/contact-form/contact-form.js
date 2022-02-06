@@ -33,5 +33,3 @@ function formComponent(elem) {
 
   elem.appendChild(formElem);
 }
-
-formComponent();

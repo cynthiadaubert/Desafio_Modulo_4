@@ -12,5 +12,3 @@ function footerComponent(elem) {
 
   elem.appendChild(footerElem);
 }
-
-footerComponent();

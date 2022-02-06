@@ -13,5 +13,3 @@ function headerComponent(elem) {
 
   elem.appendChild(headerElem);
 }
-
-headerComponent();
