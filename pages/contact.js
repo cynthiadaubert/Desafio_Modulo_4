@@ -12,5 +12,3 @@ function addComponentsContact() {
 }
 
 addComponentsContact();
-
-navEvent();

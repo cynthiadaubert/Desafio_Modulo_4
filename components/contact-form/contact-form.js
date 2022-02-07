@@ -32,4 +32,37 @@ function formComponent(elem) {
  `;
 
   elem.appendChild(formElem);
+  formEvent();
+}
+
+/// EVENT DEL FORM ///
+function formEvent() {
+  const formElem = document.querySelector(".form__container");
+  formElem.addEventListener("submit", function (event) {
+    event.preventDefault();
+    const data = new FormData(event.target);
+
+    const object = Object.fromEntries(data.entries());
+
+    fetch("https://apx-api.vercel.app/api/utils/dwf", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+
+      body: JSON.stringify({
+        to: "cynthiaperezdaubert@gmail.com",
+
+        message: {
+          Nombre: object.userName,
+          Mail: object.userEmail,
+          Mensaje: object.message,
+        },
+      }),
+    })
+      .then(() => {
+        alert("Mesaje enviado");
+      })
+      .catch(() => {
+        alert("Ha ocurrido un error");
+      });
+  });
 }

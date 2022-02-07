@@ -25,4 +25,23 @@ function navComponent(elem) {
   `;
 
   elem.appendChild(navElem);
+  navEvent();
+}
+
+/// EVENT DEL MENU HAMBURGUESA ///
+
+function navEvent() {
+  const openNavElem = document.querySelector(".nav__button");
+  const closeNavElem = document.querySelector(".nav__button-close");
+  const displayLinksElem = document.querySelector(".nav__links");
+
+  openNavElem.addEventListener("click", () => {
+    displayLinksElem.style.display = "inherit";
+    closeNavElem.style.display = "inherit";
+  });
+
+  closeNavElem.addEventListener("click", () => {
+    displayLinksElem.style.display = "";
+    closeNavElem.style.display = "";
+  });
 }

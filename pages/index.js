@@ -16,7 +16,7 @@ function main() {
 
 main();
 
-/// EVENT DEL FORM ///
+/* /// EVENT DEL FORM ///
 function formEvent() {
   const formElem = document.querySelector(".form__container");
   formElem.addEventListener("submit", function (event) {
@@ -48,9 +48,9 @@ function formEvent() {
   });
 }
 
-formEvent();
+formEvent(); */
 
-/// EVENT DEL MENU HAMBURGUESA ///
+/* /// EVENT DEL MENU HAMBURGUESA ///
 
 function navEvent() {
   const openNavElem = document.querySelector(".nav__button");
@@ -68,4 +68,4 @@ function navEvent() {
   });
 }
 
-navEvent();
+navEvent(); */
