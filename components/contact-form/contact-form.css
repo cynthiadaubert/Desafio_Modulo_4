@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #5b3765;
+  background-color: #ffa2c1;
   height: 100vh;
   width: auto;
 }
@@ -22,7 +22,7 @@
 }
 
 .contact__title {
-  color: #f8e2ec;
+  color: #ffffff;
   font-family: "Montserrat";
   font-size: 32px;
   padding: 0 auto;
@@ -31,7 +31,7 @@
 }
 
 .label__text {
-  color: #f8e2ec;
+  color: #ffffff;
   font-family: "Poppins";
   font-size: 13px;
   margin-bottom: 4px;
@@ -53,8 +53,8 @@
 .button {
   height: 45px;
   width: 400px;
-  background-color: #9e6999;
-  color: #f8e2ec;
+  background-color: #fac1e0;
+  color: #ffffff;
   font-size: 16px;
   border: none;
 }

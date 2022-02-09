@@ -1,11 +1,10 @@
 .services {
-  height: 1375px;
+  height: fit-content;
   width: 100%;
-  background-color: #fafafa;
+  background-color: #ffafa1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
 }
 
 @media (min-width: 769px) {
@@ -20,82 +19,54 @@
 }
 
 .services__title {
+  font-size: 58px;
+  font-weight: 700px;
+  color: white;
+  font-family: Montserrat;
+  margin-top: 170px;
+  margin-bottom: 105px;
+}
+
+.services__card {
+  height: auto;
+  width: auto;
+  margin-bottom: 120px;
+  padding: 0;
+}
+
+.services__card__title {
   font-family: "Montserrat";
   font-size: 32px;
   font-weight: 700px;
   text-align: center;
+  color: white;
+  margin-top: 20px;
 }
 
-.container__services {
-  height: 1233px;
-  width: 100%;
+.services__card__content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 66px;
 }
 
-@media (min-width: 769px) {
-  .container__services {
-    height: 604px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-
-.subcontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.subcontainer-subtitle {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-weight: 24px;
-  margin: 18px 52px 15px 52px;
-}
-
-@media (min-width: 769px) {
-  .subcontainer-subtitle {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-
-.caption__text {
+.services__card__description {
   font-family: "Poppins";
   font-weight: 400;
   font-weight: 16px;
+  margin-top: 10px;
   height: 117px;
   width: 262px;
   text-align: center;
+  color: white;
 }
 
 @media (min-width: 769px) {
-  .caption {
+  .services__card__description {
     font-size: 16px;
     line-height: 18px;
   }
 }
 
-.caption-extra {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-weight: 16px;
-  height: 117px;
-  width: 262px;
-  margin: 0px 57px 66px 57px;
-  text-align: center;
-}
-
-@media (min-width: 769px) {
-  .caption-extra {
-    margin-bottom: 0px;
-  }
+.services__img {
+  width: 380px;
+  height: 250px;
 }

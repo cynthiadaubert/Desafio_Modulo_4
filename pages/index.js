@@ -10,6 +10,9 @@ function main() {
   const formElem = document.querySelector(".form__container");
   formComponent(formElem);
 
+  const portfolioElem = document.querySelector(".works_container");
+  portfolioComponent(portfolioElem);
+
   const footerElem = document.querySelector(".footer__in");
   footerComponent(footerElem);
 }
