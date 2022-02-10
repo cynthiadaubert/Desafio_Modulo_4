@@ -4,17 +4,20 @@ function main() {
   const navElem = document.querySelector(".nav__section");
   navComponent(navElem);
 
-  const headerElem = document.querySelector(".header__section");
-  headerComponent(headerElem);
+  /* const headerElem = document.querySelector(".header__section");
+  headerComponent(headerElem); */
+
+  const aboutMeElem = document.querySelector(".about-me");
+  aboutMeComponent(aboutMeElem);
 
   const formElem = document.querySelector(".form__container");
   formComponent(formElem);
 
-  const portfolioElem = document.querySelector(".works_container");
-  portfolioComponent(portfolioElem);
+  /*   const portfolioElem = document.querySelector(".works_container");
+  portfolioComponent(portfolioElem); */
 
-  const footerElem = document.querySelector(".footer__in");
-  footerComponent(footerElem);
+  /*  const footerElem = document.querySelector(".footer__in");
+  footerComponent(footerElem); */
 }
 
 main();
