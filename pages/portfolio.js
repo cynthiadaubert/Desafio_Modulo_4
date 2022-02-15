@@ -14,7 +14,7 @@ addComponents();
 /* addWorkCard va a recibir los parámetros en forma de objeto (los datos de contentful) */
 function addWorkCard(params = {}) {
   const template = document.querySelector("#portfolio__card__template");
-  const container = document.querySelector(".contenedor__portf");
+  const container = document.querySelector(".works__container");
 
   template.content.querySelector(".card__title").textContent = params.title;
 

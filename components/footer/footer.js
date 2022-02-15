@@ -4,9 +4,11 @@ function footerComponent(elem) {
   footerElem.innerHTML = `
     <div class="footer__container">
           <h1 class="footer__title">Cynthia</h1>
-          <a class="links" href="./index.html">Instagram<img class="footer__logo" src="./icons/instagram.png" alt=""></a>
-          <a class="links" href="./index.html">Linkedin<img class="footer__logo" src="./icons/linkedin.png" alt=""></a>
-          <a class="links" href="./index.html">Github<img class="footer__logo" src="./icons/github.png" alt=""></a>
+          <div class="links__container">
+            <a class="links" href="./index.html">Instagram<img class="footer__logo" src="./icons/instagram.png" alt=""></a>
+            <a class="links" href="./index.html">Linkedin<img class="footer__logo" src="./icons/linkedin.png" alt=""></a>
+            <a class="links" href="./index.html">Github<img class="footer__logo" src="./icons/github.png" alt=""></a>
+          </div>
     </div>
   `;
 

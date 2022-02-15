@@ -7,17 +7,17 @@ function navComponent(elem) {
 
     <img class="nav__button" src="./icons/nav_bar.PNG" alt="">
     <div class="nav__container">
-        <a href="./index.html" class="logo__link"><img class="logo" src="./icons/portf-logo.png" alt=""></a>
-    </div>  
+          <a href="./index.html" class="logo__link"><img class="logo" src="./icons/portf-logo.png" alt=""></a>
+     
   
-    <div class="nav__links"> 
-        <img class="nav__button-close" src="./icons/cross.png" alt="">
+      <div class="nav__links"> 
+          <img class="nav__button-close" src="./icons/cross.png" alt="">
 
-        <a href="./portfolio.html" class="nav__links-texts">Portfolio</a>
-        <a href="./servicios.html" class="nav__links-texts">Servicios</a>
-        <a href="./contacto.html" class="nav__links-texts">Contacto</a>
-    </div>
-
+          <a href="./portfolio.html" class="nav__links-texts">Portfolio</a>
+          <a href="./servicios.html" class="nav__links-texts">Servicios</a>
+          <a href="./contacto.html" class="nav__links-texts">Contacto</a>
+      </div>
+    </div> 
 
   
   </nav>

@@ -6,24 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <!--  JS -->
+
     <script defer src="components/nav/nav.js"></script>
     <script defer src="components/header/header.js"></script>
-    
-    
-    
-    <script defer src="pages/add_header.js"></script>
-    
+    <script defer src="components/header/header_component.js"></script>
     <script defer src="components/contact-form/contact-form.js"></script>
     <script defer src="components/footer/footer.js"></script> 
     <script defer src="components/services/services_component.js"></script>
-    <script defer src="components/services/services.js"></script>
-    <script defer src="components/about_me/about_me_component.js"></script>
-    <script defer src="components/about_me/about_me.js"></script>
+    <script defer src="pages/services.js"></script>
     <script defer src="pages/index.js"></script>
 
-    
-    
-    
 
     <!--     CSS -->
 
@@ -34,6 +26,7 @@
     <link rel="stylesheet" href="components/footer/footer.css">
 
     <!-- FONTS -->
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
@@ -45,23 +38,33 @@
     />
   
 
-    <title>Home</title>
+  <title>Home</title>
 
 </head>
 
 <body>
 
-    <div class="nav__section"> <nav class="nav"></nav></div>
+  <div class="nav__section"> <nav class="nav"></nav></div>
     
-    <div class="header__section"></div>
-    
-    <section class="about-me"></section>
+  <div class="header__section"></div>
 
-    <section class="services"></section>
+  <section class="about-me">
+      
+    <div class="about-me__container">
+      <img src="./icons/img-principal.png" alt="" class="img__principal">  
+        <div class="about-me__texts">
+          <h3 class="about-me__title">Sobre mí</h3>
+          <p class="about-me__description">Hola! Soy desarrolladora de animación 2d tradicional y digital. Actualmente realizo animación, asistencia y postproducción para publicidad de redes sociales y televisión. Algunos clientes incluyen: Movistar, Marriot Bonvoy, Cartoon Network, Boxing Cat Brewery, CEPSA, etc. </p>
+        </div>  
+    </div>
 
-    <section class="form__container"></section>
+  </section>
 
-    <footer class="footer__in"></div></footer>
+  <section class="services"><h1 class="services__index__title">Mis servicios</h1></section>
+
+  <section class="form__container"></section>
+
+  <footer class="footer__in"></div></footer>
     
 </body>
 </html>

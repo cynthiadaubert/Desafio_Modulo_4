@@ -10,13 +10,15 @@
   justify-content: center;
   background-color: #ffa2c1;
   height: 100vh;
-  width: auto;
+  width: 100vw;
 }
 
 @media (min-width: 769px) {
   .form__container {
     width: 100vw;
     height: 660px;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -32,8 +34,9 @@
   .contact {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: fit-content;
+    width: max-content;
+    margin: 40px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 }
 
@@ -42,13 +45,16 @@
   font-family: "Montserrat";
   font-size: 32px;
   padding: 0 auto;
-  margin: 0px 0px 40px;
+  margin: 0px 0px 40px 0px;
   text-align: center;
 }
 
 @media (min-width: 769px) {
   .contact__title {
-    margin-right: 78px;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0px 82px 0px 0px;
+    padding: 0px;
   }
 }
 
@@ -61,24 +67,27 @@
 
 @media (min-width: 769px) {
   .label__text {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
   }
 }
 .textarea {
   margin-bottom: 60px;
   height: 113px;
-  width: 408px;
+  width: 90vw;
   border: none;
 }
 
 @media (min-width: 769px) {
   .textarea {
     width: 376px;
+    margin: 0px 0px 60px 0px;
+    padding: 0;
   }
 }
 
 .input-text {
-  width: 100%;
+  width: 90vw;
   margin-bottom: 20px;
   border: none;
 }
@@ -86,12 +95,15 @@
 @media (min-width: 769px) {
   .input-text {
     width: 376px;
+    height: 45px;
+    margin: 0px 0px 20px 0px;
+    padding: 0;
   }
 }
 
 .button {
   height: 45px;
-  width: 400px;
+  width: 90vw;
   background-color: #fac1e0;
   color: #ffffff;
   font-size: 16px;
@@ -104,11 +116,20 @@
   }
 }
 
+.form {
+  width: 100vw;
+}
+
 @media (min-width: 769px) {
   .form {
     display: flex;
     flex-direction: column;
+    width: 376px;
   }
+}
+
+.fieldset {
+  width: 100vw;
 }
 
 @media (min-width: 769px) {
@@ -116,5 +137,18 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+  }
+}
+
+.space {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .space {
+    display: block;
+    width: 100vw;
+    height: 160px;
+    background-color: #ffa2c1;
   }
 }
