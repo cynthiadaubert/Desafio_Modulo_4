@@ -17,7 +17,7 @@ function servicesComponent(elem) {
               </div>
           </div>    
       </template>   
-      
+    
       `;
 
   elem.appendChild(servicesElem);

@@ -4,7 +4,7 @@
   font-family: Montserrat, Poppins;
 }
 
-.works__container {
+.works {
   display: flex;
   flex-direction: column;
   height: fit-content;
@@ -13,9 +13,9 @@
 }
 
 @media (min-width: 769px) {
-  .works__container {
+  .works {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 190px;
     row-gap: 80px;
@@ -25,12 +25,12 @@
   }
 }
 
-.text__container {
+/* .text__container {
   margin-bottom: 100px;
   text-align: center;
   font-size: 48px;
   color: white;
-}
+} */
 
 .portf__card__content {
   display: flex;
@@ -130,6 +130,13 @@
 
 @media (min-width: 769px) {
   .portf__title {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .patas {
+    border: solid 3px black;
     display: none;
   }
 }

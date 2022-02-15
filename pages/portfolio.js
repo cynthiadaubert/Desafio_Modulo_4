@@ -2,7 +2,7 @@ function addComponents() {
   const navElem = document.querySelector(".nav__section");
   navComponent(navElem);
 
-  const portfolioElem = document.querySelector(".works__container");
+  const portfolioElem = document.querySelector(".works");
   portfolioComponent(portfolioElem);
 
   const footerElem = document.querySelector(".footer__in");
@@ -14,7 +14,7 @@ addComponents();
 /* addWorkCard va a recibir los parámetros en forma de objeto (los datos de contentful) */
 function addWorkCard(params = {}) {
   const template = document.querySelector("#portfolio__card__template");
-  const container = document.querySelector(".works__container");
+  const container = document.querySelector(".works");
 
   template.content.querySelector(".card__title").textContent = params.title;
 
