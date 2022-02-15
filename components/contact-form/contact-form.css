@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   background-color: #ffa2c1;
-  height: 100vh;
+  height: 900px;
   width: 100vw;
 }
 
@@ -24,16 +24,18 @@
 
 .contact {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
   height: 500px;
   width: 90vw;
+  padding-top: 0px;
 }
 
 @media (min-width: 769px) {
   .contact {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     width: max-content;
     margin: 40px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -44,16 +46,15 @@
   color: #ffffff;
   font-family: "Montserrat";
   font-size: 32px;
-  padding: 0 auto;
+  padding: 0;
   margin: 0px 0px 40px 0px;
-  text-align: center;
 }
 
 @media (min-width: 769px) {
   .contact__title {
     font-size: 48px;
     line-height: 48px;
-    margin: 0px 82px 0px 0px;
+    margin-right: 77px;
     padding: 0px;
   }
 }
@@ -62,7 +63,7 @@
   color: #ffffff;
   font-family: "Poppins";
   font-size: 13px;
-  margin-bottom: 4px;
+  margin: 0px 0px 4px 0px;
 }
 
 @media (min-width: 769px) {
@@ -72,9 +73,9 @@
   }
 }
 .textarea {
-  margin-bottom: 60px;
+  margin: 0px 0px 60px 0px;
   height: 113px;
-  width: 90vw;
+  width: 335px;
   border: none;
 }
 
@@ -87,9 +88,11 @@
 }
 
 .input-text {
-  width: 90vw;
-  margin-bottom: 20px;
+  width: 335px;
+  height: 45px;
+  margin: 0px 0px 20px 0px;
   border: none;
+  text-align: left;
 }
 
 @media (min-width: 769px) {
@@ -103,7 +106,7 @@
 
 .button {
   height: 45px;
-  width: 90vw;
+  width: 335px;
   background-color: #fac1e0;
   color: #ffffff;
   font-size: 16px;
@@ -117,7 +120,14 @@
 }
 
 .form {
-  width: 100vw;
+  width: 335px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
 }
 
 @media (min-width: 769px) {
@@ -130,6 +140,11 @@
 
 .fieldset {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: 769px) {
