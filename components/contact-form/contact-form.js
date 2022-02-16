@@ -2,6 +2,7 @@
 
 function formComponent(elem) {
   const formElem = document.createElement("div");
+  formElem.className = "null_contact";
   formElem.querySelector(".form__container");
   formElem.innerHTML = `
     <div class="contact">

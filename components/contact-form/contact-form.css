@@ -9,8 +9,8 @@
   align-items: center;
   justify-content: center;
   background-color: #ffa2c1;
-  height: 900px;
-  width: 100vw;
+  height: 100vh;
+  width: 100%;
 }
 
 @media (min-width: 769px) {
@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   height: 500px;
-  width: 90vw;
+  width: 100%;
   padding-top: 0px;
 }
 
@@ -36,8 +36,10 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
+    column-gap: 125px;
     width: max-content;
-    margin: 40px 0px 0px 0px;
+    margin: 0 auto;
     padding: 0px 0px 0px 0px;
   }
 }
@@ -54,7 +56,7 @@
   .contact__title {
     font-size: 48px;
     line-height: 48px;
-    margin-right: 77px;
+    margin: 0;
     padding: 0px;
   }
 }
@@ -81,7 +83,7 @@
 
 @media (min-width: 769px) {
   .textarea {
-    width: 376px;
+    max-width: 376px;
     margin: 0px 0px 60px 0px;
     padding: 0;
   }
@@ -97,7 +99,7 @@
 
 @media (min-width: 769px) {
   .input-text {
-    width: 376px;
+    max-width: 376px;
     height: 45px;
     margin: 0px 0px 20px 0px;
     padding: 0;
@@ -115,7 +117,7 @@
 
 @media (min-width: 769px) {
   .button {
-    width: 376px;
+    max-width: 376px;
   }
 }
 
@@ -134,12 +136,13 @@
   .form {
     display: flex;
     flex-direction: column;
-    width: 376px;
+    width: fit-content;
+    max-width: 376px;
   }
 }
 
 .fieldset {
-  width: 100vw;
+  max-width: 335px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -149,6 +152,7 @@
 
 @media (min-width: 769px) {
   .fieldset {
+    max-width: 335px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -165,5 +169,11 @@
     width: 100vw;
     height: 160px;
     background-color: #ffa2c1;
+  }
+}
+
+@media (min-width: 769px) {
+  .null_contact {
+    width: 95%;
   }
 }

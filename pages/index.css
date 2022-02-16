@@ -22,6 +22,7 @@
     height: 538px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
   }
 }
 
@@ -36,10 +37,14 @@
 
 @media (min-width: 769px) {
   .about-me__container {
-    width: fit-content;
+    width: 1000px;
     height: 480px;
+    display: flex;
     flex-direction: row;
-    margin-top: 120px;
+    justify-content: space-around;
+    row-gap: 80px;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -48,6 +53,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: space-between;
   height: 305px;
   margin: 0;
   padding: 0;
@@ -61,7 +67,6 @@
     text-align: left;
     height: 360px;
     width: 610px;
-    margin-left: 80px;
   }
 }
 

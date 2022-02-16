@@ -19,6 +19,8 @@
   .footer__in {
     width: 100vw;
     height: 345px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -35,10 +37,12 @@
 
 @media (min-width: 769px) {
   .footer__container {
-    width: max-content;
+    width: 1400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -50,7 +54,9 @@
 
 @media (min-width: 769px) {
   .footer__title {
-    margin-right: 960px;
+    margin: 0;
+    width: fit-content;
+    padding: 0;
   }
 }
 
@@ -79,10 +85,20 @@ a {
 
 @media (min-width: 769px) {
   .links__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    height: 114px;
+    width: fit-content;
     padding: 0;
     margin: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .null {
+    width: 100vw;
+    /*  border: rgb(204, 0, 0) solid 3px; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
   }
 }

@@ -1,6 +1,6 @@
 function portfolioComponent(elem) {
   const portfolioElem = document.createElement("div");
-  portfolioElem.className = "patas";
+  portfolioElem.className = "null_portf";
   portfolioElem.querySelector(".works");
   portfolioElem.innerHTML = `
     

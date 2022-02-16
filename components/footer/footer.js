@@ -1,5 +1,6 @@
 function footerComponent(elem) {
   const footerElem = document.createElement("div");
+  footerElem.className = "null";
   footerElem.querySelector("footer__in");
   footerElem.innerHTML = `
     <div class="footer__container">

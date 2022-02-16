@@ -14,23 +14,17 @@
 
 @media (min-width: 769px) {
   .works {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    column-gap: 190px;
+    display: flex;
+    flex-direction: row;
     row-gap: 80px;
+    column-gap: 190px;
+    flex-wrap: wrap;
     height: max-content;
     width: 100vw;
+    margin: 0;
     padding: 106px 80px 0px 80px;
   }
 }
-
-/* .text__container {
-  margin-bottom: 100px;
-  text-align: center;
-  font-size: 48px;
-  color: white;
-} */
 
 .portf__card__content {
   display: flex;
@@ -135,7 +129,7 @@
 }
 
 @media (min-width: 769px) {
-  .patas {
+  .null_portf {
     border: solid 3px black;
     display: none;
   }
